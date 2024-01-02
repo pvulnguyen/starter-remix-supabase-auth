@@ -1,0 +1,20 @@
+.root {
+  max-width: 26rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.form-container {
+  padding: var(--mantine-spacing-xl);
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-default);
+  box-shadow: var(--mantine-shadow-sm);
+  background-color: #fafafa;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    padding:  var(--mantine-spacing-md);
+    border: none;
+    box-shadow: none;
+    background-color: var(--mantine-color-white)
+  }
+}
